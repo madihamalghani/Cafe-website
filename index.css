@@ -694,15 +694,52 @@ html {
       row-gap:0vw;
      }
   }
-  @media (max-width: 360px){
+@media (max-width: 360px){
     .grid-item1{
     display:none;
+
     }
 .grid-item2{
   margin: 50%;
   margin-top:20%;
   margin-bottom: 20%;
 }
+/* ======================================== */
+.grid-container1{
+  display: grid;
+    grid-template-columns: auto ;
+    margin:0;
+    
+    grid-template-areas:
+      "text1  ";
+      padding: 1vw;  
+ }
+ .grid-item2{
+  background-color: blanchedalmond;
+  width:65vw;
+  height:90vw;
+  padding:4vh;
+margin-left: 0%;
+margin-right:4vw;
+ }
+  .button-form {
+    width: 71.5vw;
+    padding: 10px;
+    background-color: #7a2d2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-form:hover {
+    background-color: #8d2626;
+  }
+  
+
+
+
   }
   /* ==========footer============ */
   .footer {
